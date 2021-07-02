@@ -1,0 +1,29 @@
+version: '3'
+services:
+  php74:
+        image: php:7.4-apache
+        ports:
+          - 80:80
+        volumes:
+            - ./:/var/www/html/
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+        MYSQL_DATABASE: db
+        MYSQL_USER: root
+        MYSQL_PASSWORD: root
+        MYSQL_RANDOM_ROOT_PASSWORD: '1'
+    volumes:
+        - db:/var/lib/mysql
+  adminer:
+      depends_on:
+          - db
+      image: adminer
+      restart: always
+      ports:
+      - 8888:8080
+
+      
+volumes:
+    db:
