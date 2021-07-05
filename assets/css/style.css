@@ -122,11 +122,20 @@ body {
 .module.blue { border: 2px solid #2196F3; }
 .module.blue > h3 { background-color: #2196F3; }
 
+.module.purple { border: 2px solid #9C27B0; }
+.module.purple > h3 { background-color: #9C27B0; }
+
 .module.orange { border: 2px solid #FF9800; }
 .module.orange > h3 { background-color: #FF9800; }
 
-.module.green { border: 2px solid #4CAF50; }
-.module.green > h3 { background-color: #4CAF50; }
+.module.dark-green { border: 2px solid #1B5E20; }
+.module.dark-green > h3 { background-color: #1B5E20; }
 
-.module.green { border: 2px solid #4CAF50; }
-.module.green > h3 { background-color: #4CAF50; }
+.module.dark-red { border: 2px solid #B71C1C; }
+.module.dark-red > h3 { background-color: #B71C1C; }
+
+.module.dark-blue { border: 2px solid #0D47A1; }
+.module.dark-blue > h3 { background-color: #0D47A1; }
+
+.module.dark-purple { border: 2px solid #4A148C; }
+.module.dark-purple > h3 { background-color: #4A148C; }

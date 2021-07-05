@@ -58,7 +58,7 @@
                         <li><a href="#">Exercício C</a></li>                   
                     </ul>
                 </div>
-                <div class="module">
+                <div class="module dark-green">
                     <h3>Módulo 06</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
@@ -66,7 +66,7 @@
                         <li><a href="#">Exercício C</a></li>                   
                     </ul>
                 </div>
-                <div class="module">
+                <div class="module dark-red">
                     <h3>Módulo 07</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
@@ -74,7 +74,7 @@
                         <li><a href="#">Exercício C</a></li>                   
                     </ul>
                 </div>
-                <div class="module">
+                <div class="module dark-blue">
                     <h3>Módulo 08</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
@@ -82,7 +82,7 @@
                         <li><a href="#">Exercício C</a></li>                   
                     </ul>
                 </div>
-                <div class="module">
+                <div class="module dark-purple">
                     <h3>Módulo 09</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
