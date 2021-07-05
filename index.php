@@ -18,7 +18,7 @@
     <main class="main">
         <div class="content">
             <nav class="modules">
-                <div class="module">
+                <div class="module green">
                     <h3>Módulo 01</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
@@ -26,7 +26,7 @@
                         <li><a href="#">Exercício C</a></li>                   
                     </ul>
                 </div>
-                <div class="module">
+                <div class="module red">
                     <h3>Módulo 02</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
@@ -34,7 +34,7 @@
                         <li><a href="#">Exercício C</a></li>                   
                     </ul>
                 </div>
-                <div class="module">
+                <div class="module blue">
                     <h3>Módulo 03</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
@@ -42,7 +42,7 @@
                         <li><a href="#">Exercício C</a></li>                   
                     </ul>
                 </div>
-                <div class="module">
+                <div class="module purple">
                     <h3>Módulo 04</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
@@ -50,7 +50,7 @@
                         <li><a href="#">Exercício C</a></li>                   
                     </ul>
                 </div>
-                <div class="module">
+                <div class="module orange">
                     <h3>Módulo 05</h3>
                     <ul>
                         <li><a href="#">Exercício A</a></li>
