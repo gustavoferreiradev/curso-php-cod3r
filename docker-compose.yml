@@ -1,29 +1,23 @@
-version: '3'
+version: "3"
+
 services:
-  php74:
-        image: php:7.4-apache
-        ports:
-          - 80:80
-        volumes:
-            - ./:/var/www/html/
+  web:
+    image: webdevops/php-apache:7.4-alpine
+    ports:
+      - "8090:80"
+    volumes:
+      - ./:/app
+
   db:
-    image: mysql:5.7
+    image: mysql
+    command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-        MYSQL_DATABASE: db
-        MYSQL_USER: root
-        MYSQL_PASSWORD: root
-        MYSQL_RANDOM_ROOT_PASSWORD: '1'
-    volumes:
-        - db:/var/lib/mysql
-  adminer:
-      depends_on:
-          - db
-      image: adminer
-      restart: always
-      ports:
-      - 8888:8080
+      MYSQL_ROOT_PASSWORD: root
 
-      
-volumes:
-    db:
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - "8089:80"
