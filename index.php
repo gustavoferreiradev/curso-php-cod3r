@@ -31,11 +31,21 @@
                                 Integração HTML
                             </a>
                         </li>
-                        <li>
-                            <a href="exercise.php?dir=basics&file=css">
-                                Integração CSS
-                            </a>
-                        </li>
+                            <li>
+                                <a href="exercise.php?dir=basics&file=css">
+                                    Integração CSS
+                                </a>
+                            </li>
+                            <li>
+                                <a href="exercise.php?dir=basics&file=comments">
+                                    Comentários PHP
+                                </a>
+                            </li>
+                            <li>
+                                <a href="exercise.php?dir=basics&file=challenge">
+                                    Desafio
+                                </a>
+                            </li>
                         <ul>
 
                     </ul>
